@@ -29,7 +29,6 @@
                     echo "<h3>Balasan:</h3>";
                     echo "<p>".$warga['balasan']."</p>";
                 }
-                // echo "<a href='hapus.php?id=".$warga['id']."'>Hapus</a> ";
                 echo "<a href='form-reply.php?id=".$warga['id']."'>Balas</a>";
                 
                 

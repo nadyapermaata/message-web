@@ -15,11 +15,6 @@
     </header>
 
     <div class="menu">
-        <!-- <div class="photo">
-            <img src="images/pak_eri.png" style="width: 100%">
-            <b><figcaption>Eri Cahyadi</figcaption></b>
-            <figcaption>Wali Kota Surabaya</figcaption>
-        </div> -->
         
         <nav>
             <a class="button" href="form-pesan.php">Kirim Pesan</a><br>

@@ -1,6 +1,5 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* background-color: whitesmoke; */
 }
 
 body {
@@ -14,7 +13,6 @@ hr.line {
 }
 
 .container {
-    /* background-color: #C8E7F5; */
     background-color: #CFAE6E;
     border: solid;
     border-radius: 20px;
@@ -40,7 +38,6 @@ header {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
-    /* border: solid; */
 }
 
 header h1 {
@@ -61,18 +58,11 @@ header h1 {
     align-items: center;
 }
 
-/* .photo {
-    margin-bottom: 3%;
-} */
 
 .menu nav {
-    /* margin-top: auto;
-    margin-bottom: auto; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 200px; */
-    /* border: 3px solid green; */
 }
 
 .button {
@@ -82,19 +72,8 @@ header h1 {
     width: 7vw;
     color: black;
     padding: 16px 32px;
-    /* position: absolute;
-    top: 50%; */
-    /* margin: 0; */
-
-    /* text-align: center; */
     text-decoration: none;
     display: inline-block;
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center;
-    height: 200px;
-    border: 3px solid green; */
-
     font-size: 16px;
     margin: 10px 20px;
     transition-duration: 0.2s;
@@ -102,7 +81,6 @@ header h1 {
 }
 
 .button:hover, .daftar input:hover, .tambah a:hover {
-    /* background-color: #67A3D9; */
     background-color: #9c8556;
     color: white;
 }
@@ -117,14 +95,9 @@ table {
 }
 
 fieldset {
-    /* background-color: #C8E7F5; */
     background-color: #CFAE6E;
     border: solid;
     border-radius: 10px;
-    /* position: absolute;
-    left: 50%;
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%); */
     width: 21vw;
 }
 
@@ -141,7 +114,6 @@ fieldset td {
 }
 
 .rep table {
-    /* background-color: #C8E7F5; */
     background-color: #CFAE6E;
 
     border: solid;
@@ -156,19 +128,15 @@ fieldset td {
 .messages td {
     border: solid;
     border-radius: 15px;
-    /* background-color: #C8E7F5; */
     background-color: #CFAE6E;
 
     padding: 10px;
     width: 10px;
-    /* padding-top: -50px; */
-    /* padding-bottom: 10px; */
 }
 
 .messages table {
     width: 30%;
     border-spacing: 30px;
-    /* border: solid; */
 }
 
 .messages h3 {
