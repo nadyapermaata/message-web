@@ -1,0 +1,208 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: whitesmoke; */
+}
+
+body {
+    background-image: url("images/background.png");
+    background-size: 100vw;
+}
+
+hr.line {
+    border: 1px solid black;
+    width: 85%;
+}
+
+.container {
+    /* background-color: #C8E7F5; */
+    background-color: #CFAE6E;
+    border: solid;
+    border-radius: 20px;
+    width: 35vw;
+
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* border: solid; */
+}
+
+header h1 {
+    margin-top: -10px;
+}
+
+.menu h4 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    text-align: center;
+    /* border: solid; */
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .photo {
+    margin-bottom: 3%;
+} */
+
+.menu nav {
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px; */
+    /* border: 3px solid green; */
+}
+
+.button {
+    background-color: white;
+    border: black 2px solid;
+    border-radius: 10px;
+    width: 7vw;
+    color: black;
+    padding: 16px 32px;
+    /* position: absolute;
+    top: 50%; */
+    /* margin: 0; */
+
+    /* text-align: center; */
+    text-decoration: none;
+    display: inline-block;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid green; */
+
+    font-size: 16px;
+    margin: 10px 20px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.button:hover, .daftar input:hover, .tambah a:hover {
+    /* background-color: #67A3D9; */
+    background-color: #9c8556;
+    color: white;
+}
+
+textarea {
+    height: 80px;
+    width: 160px;
+}
+
+table {
+    margin: auto;
+}
+
+fieldset {
+    /* background-color: #C8E7F5; */
+    background-color: #CFAE6E;
+    border: solid;
+    border-radius: 10px;
+    /* position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); */
+    width: 21vw;
+}
+
+fieldset td {
+    padding-top: 20px;
+}
+
+.replies {
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.rep table {
+    /* background-color: #C8E7F5; */
+    background-color: #CFAE6E;
+
+    border: solid;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.messages td {
+    border: solid;
+    border-radius: 15px;
+    /* background-color: #C8E7F5; */
+    background-color: #CFAE6E;
+
+    padding: 10px;
+    width: 10px;
+    /* padding-top: -50px; */
+    /* padding-bottom: 10px; */
+}
+
+.messages table {
+    width: 30%;
+    border-spacing: 30px;
+    /* border: solid; */
+}
+
+.messages h3 {
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+
+.messages h4 {
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.daftar {
+    margin: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+.daftar input, .tambah a {
+    background-color: white;
+    border: black 2px solid;
+    border-radius: 10px;
+    width: 7vw;
+    color: black;
+    padding: 6px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    text-decoration: none;
+}
+
+nav, .total{
+    text-align: center;
+}
+
+thead tr th {
+    padding: 20px;
+}
